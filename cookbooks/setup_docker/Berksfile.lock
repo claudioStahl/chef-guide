@@ -1,0 +1,10 @@
+DEPENDENCIES
+  docker (~> 4.4.1)
+  setup_docker
+    path: .
+    metadata: true
+
+GRAPH
+  docker (4.4.1)
+  setup_docker (0.1.0)
+    docker (>= 0.0.0)

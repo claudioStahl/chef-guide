@@ -1,0 +1,4 @@
+/nodes
+
+/cookbooks/*
+!/cookbooks/setup_docker
