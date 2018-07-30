@@ -1,7 +1,7 @@
 {
-  "name": "setup_docker",
-  "description": "Installs/Configures setup_docker",
-  "long_description": "Installs/Configures setup_docker",
+  "name": "chef-guide",
+  "description": "Installs/Configures chef-guide",
+  "long_description": "Installs/Configures chef-guide",
   "maintainer": "The Authors",
   "maintainer_email": "you@example.com",
   "license": "All Rights Reserved",

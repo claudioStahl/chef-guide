@@ -1,6 +1,8 @@
 ---
 driver:
   name: vagrant
+  synced_folders:
+    - ["./", "/root/cookbooks/chef-guide", 'create: true, owner: "root", group: "root"']
 
 provisioner:
   name: chef_zero
@@ -19,7 +21,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[setup_docker::default]
+      - recipe[chef-guide::default]
     verifier:
       inspec_tests:
         - test/integration/default

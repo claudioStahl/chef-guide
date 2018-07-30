@@ -1,11 +1,10 @@
 #
-# Cookbook:: setup_docker
+# Cookbook:: chef-guide
 # Recipe:: default
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
 require 'pry'
-
 binding.pry
 
 file '/tmp/motd' do
